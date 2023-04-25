@@ -2,13 +2,13 @@
 
 /* Dark and Light theme */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-/*   max-width:120%; */
-/*   height:auto; */
+  /*   max-width:120%; */
+  /*   height:auto; */
 }
 
 html[light-mode="light"] {
@@ -34,7 +34,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .education_head {
   font-weight: bold;
 }
@@ -47,7 +46,7 @@ html {
 
 /* -----Education Section CSS----- */
 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
   .dropdown1 {
     position: absolute;
     text-align: center;
@@ -84,7 +83,7 @@ html {
 .s2 .head {
   font-size: 2rem;
   font-weight: bold;
-} 
+}
 
 /*properties for online accreditaions(MOOCS) heading*/
 
@@ -385,7 +384,8 @@ section {
   padding: 100px 0;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -404,8 +404,8 @@ h1 {
 }
 
 header {
-  background: #3F51B5;
-  color: #FFFFFF;
+  background: #3f51b5;
+  color: #ffffff;
   padding: 150px 0;
 }
 header p {
@@ -424,7 +424,7 @@ header p {
 /* Draws line */
 .timeline::before {
   content: "";
-  background: #C5CAE9;
+  background: #c5cae9;
   width: 5px;
   height: 95%;
   position: absolute;
@@ -441,18 +441,18 @@ header p {
   float: right;
   padding: 40px 30px 10px 30px;
 }
- .timeline-item:nth-child(even) .timeline-content .alignment {
-  position:absolute;
+.timeline-item:nth-child(even) .timeline-content .alignment {
+  position: absolute;
   text-align: left;
   padding-right: 5px;
-} 
+}
 .timeline-item:nth-child(even) .timeline-content .date {
   left: auto;
   right: 0;
 }
 .timeline-item:nth-child(even) .timeline-content .bnt-more {
   position: absolute;
-  right:0;
+  right: 0;
   bottom: 65px;
 }
 
@@ -503,7 +503,7 @@ header p {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #3F51B5;
+  background: #3f51b5;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -512,8 +512,8 @@ header p {
 }
 
 .bnt-more {
-  background: #3F51B5;
-  color: #FFFFFF;
+  background: #3f51b5;
+  color: #ffffff;
   padding: 8px 20px;
   text-transform: uppercase;
   font-size: 14px;
@@ -521,13 +521,15 @@ header p {
   display: inline-block;
   border-radius: 2px;
   box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-  position: absolute; 
-  right:0;
+  position: absolute;
+  right: 0;
 }
 
-.bnt-mor:hover, .bnt-mor:active, .bnt-mor:focus {
+.bnt-mor:hover,
+.bnt-mor:active,
+.bnt-mor:focus {
   background: #32408f;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -547,7 +549,6 @@ header p {
   /*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;*/
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
   background-size: cover;
-
 }
 
 .timeline-img-header {
@@ -555,7 +556,6 @@ header p {
   position: relative;
   margin-bottom: 20px;
   /*background-image: url('assets/images/education-page/edTimeline1.png');*/
-
 }
 
 .timeline-img-header h2 {
@@ -569,25 +569,23 @@ header p {
 blockquote {
   margin-top: 30px;
   color: #757575;
-  border-left-color: #3F51B5;
+  border-left-color: #3f51b5;
   padding: 0 20px;
 }
 
 .date {
-  background: #FF4081;
+  background: #ff4081;
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.alignment{
+.alignment {
   padding-left: 20px;
-  
 }
-
 
 @media screen and (max-width: 768px) {
   .timeline::before {
@@ -607,10 +605,10 @@ blockquote {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  h2{
+  h2 {
     font-size: 1.75rem;
   }
-  h3{
+  h3 {
     font-size: 1.5rem;
   }
 
@@ -626,12 +624,12 @@ blockquote {
     border-color: transparent #f5f5f5 transparent transparent;
   }
 }
-  @media screen and (max-width: 760px) {
-    h2{
-      font-size: 1.5rem;
-    }
-    h3{
-      font-size: .85rem;
-      font-weight: bold;
-    }
+@media screen and (max-width: 760px) {
+  h2 {
+    font-size: 1.5rem;
   }
+  h3 {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+}
